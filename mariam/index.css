@@ -60,19 +60,25 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 300px;
+  min-height: 447px;
 }
 
-.u-section-2 .u-video-1 {
-  width: 404px;
+.u-section-2 .u-group-1 {
+  width: 494px;
   box-shadow: 0px 0px 8px 12px rgba(255,255,255,0.6);
   height: auto;
-  min-height: 240px;
-  margin: 30px 353px 30px auto;
+  min-height: 293px;
+  margin: 77px auto 60px 304px;
 }
 
 .u-section-2 .u-container-layout-1 {
   padding: 0;
+}
+
+.u-section-2 .u-video-1 {
+  width: 493px;
+  height: 293px;
+  margin: 0 -1px -2px;
 }
 
 .u-section-2 .embed-responsive-1 {
@@ -80,37 +86,43 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-video-1 {
+  .u-section-2 .u-group-1 {
     height: auto;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-2 .u-video-1 {
-    margin-right: 316px;
+  .u-section-2 .u-group-1 {
+    margin-left: 226px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-video-1 {
-    margin-right: 136px;
+  .u-section-2 .u-group-1 {
+    margin-left: 46px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-group-1 {
+    width: 340px;
+    margin-left: 0;
+  }
+
   .u-section-2 .u-video-1 {
     width: 340px;
+    height: 202px;
+    margin-left: 0;
     margin-right: 0;
   }
 } .u-section-3 {
-  min-height: 788px;
+  min-height: 845px;
 }
 
 .u-section-3 .u-shape-1 {
   height: 68px;
-  margin-top: 0;
-  margin-bottom: 0;
   background-image: linear-gradient(#f98fe2, black);
+  margin: 57px 0 0;
 }
 
 .u-section-3 .u-layout-wrap-1 {
@@ -152,7 +164,12 @@
 
 @media (max-width: 1199px) {
    .u-section-3 {
-    min-height: 718px;
+    min-height: 775px;
+  }
+
+  .u-section-3 .u-shape-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-layout-wrap-1 {
@@ -171,7 +188,7 @@
 
 @media (max-width: 991px) {
    .u-section-3 {
-    min-height: 641px;
+    min-height: 698px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
@@ -190,7 +207,7 @@
 
 @media (max-width: 767px) {
    .u-section-3 {
-    min-height: 1148px;
+    min-height: 1205px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
@@ -219,7 +236,7 @@
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 866px;
+    min-height: 923px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
