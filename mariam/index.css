@@ -30,12 +30,13 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 847px;
+    min-height: 519px;
   }
 
   .u-section-1 .u-image-1 {
     width: 720px;
     height: 397px;
+    margin: 60px 0 58px;
   }
 }
 
@@ -52,12 +53,14 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 562px;
+    min-height: 425px;
   }
 
   .u-section-1 .u-image-1 {
     width: 340px;
     height: 188px;
+    margin-top: 119px;
+    margin-bottom: 119px;
   }
 } .u-section-2 {
   background-image: url("images/estrerosa.gif");
@@ -136,7 +139,7 @@
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 957px;
+    min-height: 602px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
@@ -182,11 +185,12 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1102px;
+    min-height: 627px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
     width: 340px;
+    margin-top: 0;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -196,10 +200,4 @@
   .u-section-2 .u-layout-cell-2 {
     min-height: 234px;
   }
-} .u-section-3 {
-  background-image: none;
-}
-
-.u-section-3 .u-sheet-1 {
-  min-height: 15px;
 }
